@@ -1,0 +1,159 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(./font/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: "Montserrat1";
+  src: url(./font/Montserrat-Light.ttf);
+}
+.container {
+  width: 100%;
+  height: 50vw;
+  background-color: rgb(1, 227, 127);
+  position: relative;
+}
+.container .container2 {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  background-color: white;
+  position: absolute;
+  top: 80px;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.container .container2 .card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: auto;
+  position: absolute;
+  width: 50%;
+  padding-top: 0;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  transform: translate(-30px, 70px);
+  box-shadow: 12px 12px 25px -5px grey;
+}
+.container .container2 .card-container .photo-container {
+  width: 100%;
+  height: 370px;
+  position: relative;
+  border-radius: 10px 10px 0 0;
+  margin-top: 0;
+  background-image: radial-gradient(rgb(160, 244, 160) 30%, rgb(25, 223, 25));
+}
+.container .container2 .card-container .photo-container .apple {
+  width: 90%;
+  height: 320px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  transform: translateX(-70px);
+  margin-top: 40px;
+}
+.container .container2 .card-container .photo-container .svgs {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 15px;
+  z-index: 2;
+}
+.container .container2 .card-container .photo-container .svgs .svg1 {
+  filter: brightness(0) invert(1);
+}
+.container .container2 .card-container .photo-container .svgs .svg2 {
+  filter: brightness(0) invert(1);
+}
+.container .container2 .card-container .little-photos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 15px;
+  width: 100%;
+}
+.container .container2 .card-container .little-photos .apple1 img {
+  width: 70px;
+  background-image: radial-gradient(rgb(244, 225, 225) 0%, white 100%);
+  border: 1px solid rgb(115, 115, 115);
+  border-radius: 5px;
+  height: 60px;
+  box-sizing: content-box;
+}
+.container .container2 .text-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-left: 50%;
+  padding: 0 10px;
+}
+.container .container2 .text-container h1 {
+  font-size: 42px;
+  font-family: "Montserrat";
+  margin-bottom: 8px;
+}
+.container .container2 .text-container p {
+  font-size: 16px;
+  font-family: "Montserrat1";
+  margin-bottom: 30px;
+}
+.container .container2 .text-container .p {
+  color: red;
+}
+.container .container2 .text-container .p span {
+  font-size: 60px;
+  letter-spacing: 0.1em;
+}
+.container .container2 .text-container .select {
+  margin-bottom: 10px;
+}
+.container .container2 .text-container .apple-colors {
+  display: flex;
+  flex-direction: row;
+  width: 260px;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.container .container2 .text-container .apple-colors .apple2 img {
+  background-image: radial-gradient(rgb(244, 225, 225) 0%, white 100%);
+  border-radius: 5px;
+  height: 40px;
+  box-sizing: content-box;
+}
+.container .container2 .text-container .apple-colors .green img {
+  border: 1px solid rgb(115, 115, 115);
+}
+.container .container2 .text-container .apple-colors .yellow img {
+  filter: hue-rotate(-45deg) brightness(1.1);
+}
+.container .container2 .text-container .apple-colors .orange img {
+  filter: hue-rotate(-75deg) saturate(1.4);
+}
+.container .container2 .text-container .apple-colors .red img {
+  filter: hue-rotate(-105deg) saturate(1.8);
+}
+.container .container2 .text-container ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  line-height: 1.1em;
+  margin-bottom: 15px;
+}
+.container .container2 .text-container .benefits {
+  margin-bottom: 10px;
+}
+.container .container2 .text-container .button {
+  padding: 15px 20px;
+  width: 320px;
+  background-color: rgb(208, 85, 85);
+  border: 1px solid black;
+  color: white;
+}
+.container .container2 .text-container .button:hover {
+  background-color: red;
+}/*# sourceMappingURL=style.css.map */
